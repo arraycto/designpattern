@@ -6,6 +6,9 @@
 # 具体教程
 具体教程（包括定义、实现场景、优缺点以及实现原理）会在公众号【JAVA开发零到壹】中进行详细的讲解。
 
+# 公众号名称（教程地址）
+【JAVA开发零到壹】
+
 # 公众号二维码
 ![image](https://github.com/zsh577531737/designpattern/blob/master/src/main/resources/gognzhonghao.jpg)
 
