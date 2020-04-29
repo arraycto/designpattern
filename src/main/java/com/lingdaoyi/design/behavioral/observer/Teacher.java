@@ -15,6 +15,11 @@ public class Teacher implements Observer{
         this.teacherName = teacherName;
     }
 
+    /**
+     * 重写update方法，具体业务场景具体对待，如入库、发送到消息
+     * @param o 被观察信息
+     * @param arg question信息
+     */
     @Override
     public void update(Observable o, Object arg) {
         Course course = (Course) o;

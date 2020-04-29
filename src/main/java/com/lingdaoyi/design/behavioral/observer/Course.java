@@ -19,7 +19,8 @@ public class Course extends Observable{
     }
 
     public void produceQuestion(Course course,Question question){
-        System.out.println(question.getUserName()+"在"+course.getCourseName()+"中提出问题："+question.getQuestionContent());
+        System.out.println(question.getUserName()+"在"+
+                course.getCourseName()+"中提出问题："+question.getQuestionContent());
         //标记被观察者状态改变
         setChanged();
         //通知观察者

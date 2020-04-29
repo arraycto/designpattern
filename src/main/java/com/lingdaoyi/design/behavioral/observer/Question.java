@@ -1,5 +1,10 @@
 package com.lingdaoyi.design.behavioral.observer;
 
+/**
+ * Created by lingdaoyi
+ *
+ * 描述：将信息传送给被观察者，
+ */
 public class Question {
     private String userName;
 
